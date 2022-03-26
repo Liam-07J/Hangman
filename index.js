@@ -64,7 +64,7 @@ function playHangman() {
         input = prompt("What is your input letter? ");
         input = input.toLowerCase();
         if (word == input) {
-            console.log(console.log("\nCorrect " + word + " is the correct word"));
+            console.log("\nCorrect " + word + " is the correct word");
             break;
         } else if (input.length != 1) {
             wrong()
